@@ -1,0 +1,22 @@
+{
+    "name": "sheillendra/yii2-hillter",
+    "description": "hillter",
+    "keywords": ["hillter", "sheillendra", "yii2", "yii"],
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Sheillendra",
+            "email": "sheillendra@yahoo.com,suryana869@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/font-awesome": "*",
+        "sheillendra/yii2-helpers": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sheillendra\\hillter\\": ""
+        }
+    }
+}
