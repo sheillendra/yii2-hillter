@@ -29,6 +29,7 @@ class HillterAsset extends AssetBundle {
     public $depends = [
         'yii\web\JqueryAsset',
         'sheillendra\hillter\assets\JqueryUIAsset',
+        //'sersid\owlcarousel\Asset',
         //'yii\bootstrap\BootstrapPluginAsset',
         'yii\web\YiiAsset',
         'sheillendra\hillter\assets\FontAwesomeAsset',
