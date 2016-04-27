@@ -21,20 +21,9 @@ $hillterAsset = HillterAsset::register($this);
         <?php $this->head() ?>
 
         <!-- GOOGLE FONT -->
-        <!--
+        
         <link href='http://fonts.googleapis.com/css?family=Hind:400,300,500,600%7cMontserrat:400,700' rel='stylesheet' type='text/css'>
-        -->
-
-        <!-- CSS LIBRARY -->
-        <!--
-        <link rel="stylesheet" type="text/css" href="css/lib/font-hilltericon.css">
-        <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/lib/owl.carousel.css">
-        <link rel="stylesheet" type="text/css" href="css/lib/jquery-ui.min.css">
-        <link rel="stylesheet" type="text/css" href="css/lib/magnific-popup.css">
-        <link rel="stylesheet" type="text/css" href="css/lib/settings.css">
-        <link rel="stylesheet" type="text/css" href="css/lib/bootstrap-select.min.css">
-        -->
+        
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
             <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -136,7 +125,7 @@ $hillterAsset = HillterAsset::register($this);
                 <div class="banner-slider" id="banner-slider">
 
                     <!-- ITEM -->
-                    <div class="slider-item text-center" data-image="images/slider/img-1.jpg">
+                    <div class="slider-item text-center" data-image="<?php echo $hillterAsset->baseUrl?>/images/slider/img-1.jpg">
                         <div class="slider-text">
                             <span class="slider-caption-sub slider-caption-sub-1">NEW bakery</span>
                             <h2 class="slider-caption slider-caption-1">bakery SALLAD</h2>
@@ -146,7 +135,7 @@ $hillterAsset = HillterAsset::register($this);
                     <!-- ITEM -->
 
                     <!-- ITEM -->
-                    <div class="slider-item text-center" data-image="images/slider/img-2.jpg">
+                    <div class="slider-item text-center" data-image="<?php echo $hillterAsset->baseUrl?>/images/slider/img-2.jpg">
                         <div class="slider-text">
                             <span class="slider-caption-sub slider-caption-sub-2">EARLY BOOKING BONUS SALE</span>
                             <h2 class="slider-caption slider-caption-2">SAVE <small>UP<br/>TO</small> 60%</h2>
@@ -156,7 +145,7 @@ $hillterAsset = HillterAsset::register($this);
                     <!-- ITEM -->
 
                     <!-- ITEM -->
-                    <div class="slider-item text-center" data-image="images/slider/img-3.jpg">
+                    <div class="slider-item text-center" data-image="<?php echo $hillterAsset->baseUrl?>/images/slider/img-3.jpg">
                         <div class="slider-text">
                             <span class="slider-icon"><img src="<?php echo $hillterAsset->baseUrl?>/images/icon-slider-1.png" alt=""></span><br>
                             <span class="slider-caption-sub slider-caption-sub-3"><img src="<?php echo $hillterAsset->baseUrl?>/images/icon-slider-4.png" alt=""> EACH HOTEL IS <img src="<?php echo $hillterAsset->baseUrl?>/images/icon-slider-3.png" alt=""></span>
