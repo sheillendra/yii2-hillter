@@ -59,7 +59,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <a href="register.html">register</a>
                             </span>
                         </div>
-                        <div class="header_right float-right">
+<!--                        <div class="header_right float-right">
 
                             <div id="google_translate_element"></div>
                             <script type="text/javascript">
@@ -69,7 +69,7 @@ $hillterAsset = HillterAsset::register($this);
                             </script>
                             <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>                    
 
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <!-- END / HEADER TOP -->
@@ -512,7 +512,7 @@ $hillterAsset = HillterAsset::register($this);
 
                                 <div class="item-isotope suite dining ">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-1.jpg" alt="">
                                         </a>
                                     </div>
@@ -522,7 +522,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope  ground bathroom suite">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-2.jpg" alt="">
                                         </a>
                                     </div>
@@ -532,7 +532,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope ground bathroom dining">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-3.jpg" alt="">
                                         </a>
                                     </div>
@@ -542,7 +542,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope suite dining">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-4.jpg" alt="">
                                         </a>
                                     </div>
@@ -552,7 +552,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope  ground suite dining">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-5.jpg" alt="">
                                         </a>
                                     </div>
@@ -562,7 +562,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope ground bathroom dining">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-6.jpg" alt="">
                                         </a>
                                     </div>
@@ -572,7 +572,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope ground suite dining">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-7.jpg" alt="">
                                         </a>
                                     </div>
@@ -582,7 +582,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope bathroom suite dining">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-8.jpg" alt="">
                                         </a>
                                     </div>
@@ -592,7 +592,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope bathroom suite dining">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-9.jpg" alt="">
                                         </a>
                                     </div>
@@ -602,7 +602,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope ground bathroom">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-10.jpg" alt="">
                                         </a>
                                     </div>
@@ -612,7 +612,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope ground bathroom suite ">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-11.jpg" alt="">
                                         </a>
                                     </div>
@@ -622,7 +622,7 @@ $hillterAsset = HillterAsset::register($this);
                                 <!-- ITEM -->
                                 <div class="item-isotope ground bathroom">
                                     <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                        <a  href="<?php echo $hillterAsset->baseUrl?>/images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
                                             <img src="<?php echo $hillterAsset->baseUrl?>/images/gallery/img-12.jpg" alt="">
                                         </a>
                                     </div>
