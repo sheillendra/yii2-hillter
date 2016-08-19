@@ -7,6 +7,9 @@ $hillterAsset = HillterAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
+
+<?php echo $this->render('@app/views/layouts/_init_view') ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
